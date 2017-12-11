@@ -1,0 +1,4 @@
+SELECT ?v0 ?v2 WHERE {
+    ?v0 <http://vivo.ufl.edu/ontology/vivo-ufl/dateTimeIntervalFor> ?v1.
+    ?v0 <http://vivoweb.org/ontology/core#start> ?v2.
+} LIMIT 1000000

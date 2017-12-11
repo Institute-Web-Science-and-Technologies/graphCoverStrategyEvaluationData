@@ -1,0 +1,10 @@
+SELECT ?v0 ?v8 WHERE {
+    ?v0 <http://vivo.ufl.edu/ontology/vivo-ufl/dateTimeIntervalFor> ?v1.
+    ?v1 <http://vivoweb.org/ontology/core#contributingRole> ?v2.
+    ?v2 <http://vivoweb.org/ontology/core#teacherRoleOf> ?v3.
+    ?v3 <http://vivo.ufl.edu/ontology/vivo-ufl/homeDept> ?v4.
+    ?v4 <http://vivo.ufl.edu/ontology/vivo-ufl/homeDeptFor> ?v5.
+    ?v5 <http://vivo.ufl.edu/ontology/vivo-ufl/homeDept> ?v6.
+    ?v6 <http://vivoweb.org/ontology/core#subOrganizationWithin> ?v7.
+    ?v7 <http://www.w3.org/2000/01/rdf-schema#label> ?v8.
+} LIMIT 1000000
