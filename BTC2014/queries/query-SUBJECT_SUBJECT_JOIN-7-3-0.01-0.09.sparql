@@ -1,0 +1,10 @@
+SELECT ?v0 ?v8 WHERE {
+    ?v0 <http://www.w3.org/2002/07/owl#equivalentClass> ?v1.
+    ?v0 <http://www.w3.org/2004/02/skos/core#prefLabel> ?v2.
+    ?v0 <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> ?v3.
+    ?v0 <http://purl.obolibrary.org/obo/IAO_0000111> ?v4.
+    ?v0 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ?v5.
+    ?v0 <http://www.w3.org/2000/01/rdf-schema#label> ?v6.
+    ?v0 <http://www.w3.org/2000/01/rdf-schema#comment> ?v7.
+    ?v0 <http://eagle-i.org/ont/app/1.0/preferredLabel> ?v8.
+} LIMIT 1000000

@@ -1,0 +1,10 @@
+SELECT ?v0 ?v8 WHERE {
+    ?v0 <http://www.metalex.eu/metalex/2008-05-02#realizedBy> ?v1.
+    ?v0 <http://www.metalex.eu/metalex/2008-05-02#fragment> ?v2.
+    ?v0 <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ?v3.
+    ?v0 <http://purl.org/vocab/frbr/core#realization> ?v4.
+    ?v0 <http://purl.org/dc/terms/valid> ?v5.
+    ?v0 <http://purl.org/dc/terms/description> ?v6.
+    ?v0 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ?v7.
+    ?v0 <http://purl.org/dc/terms/created> ?v8.
+} LIMIT 1000000

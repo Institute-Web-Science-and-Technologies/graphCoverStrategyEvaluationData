@@ -1,0 +1,4 @@
+SELECT ?v0 ?v2 WHERE {
+    ?v0 <http://www.metalex.eu/metalex/2008-05-02#realizedBy> ?v1.
+    ?v0 <http://www.metalex.eu/metalex/2008-05-02#fragment> ?v2.
+} LIMIT 1000000

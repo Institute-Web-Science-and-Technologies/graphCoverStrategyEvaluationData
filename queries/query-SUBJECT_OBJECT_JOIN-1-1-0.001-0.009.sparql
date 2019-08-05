@@ -1,4 +1,0 @@
-SELECT ?v0 ?v2 WHERE {
-    ?v0 <http://purl.org/ontology/bibo/Webpage> ?v1.
-    ?v1 <http://purl.org/dc/terms/created> ?v2.
-} LIMIT 1000000
